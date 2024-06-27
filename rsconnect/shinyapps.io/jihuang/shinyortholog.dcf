@@ -5,6 +5,6 @@ account: jihuang
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 11135055
-bundleId: 8221044
+bundleId: 8793624
 url: https://jihuang.shinyapps.io/shinyortholog/
 version: 1

@@ -12,10 +12,10 @@ data <- readRDS(here("zma__v__ath.RDS"))
 
 
 ui <- fluidPage(
-    titlePanel("Gene ID Search in Orthogroups"),
+    titlePanel("Gene ID Search in Orthogroups (Ath-Zma)"),
     sidebarLayout(
         sidebarPanel(
-            textInput("gene_id", "Enter Gene IDs (separated by commas)"),
+            textInput("gene_id", "Enter Gene Ath or Zma IDs (separated by commas)"),
             actionButton("search", "Search")
         ),
         mainPanel(
